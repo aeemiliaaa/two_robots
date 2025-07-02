@@ -3,7 +3,7 @@ import pygame
 
 pygame.init()
 window = pygame.display.set_mode((640, 480))
-
+pygame.display.set_caption("Two player game")
 robot1 = pygame.image.load("robot.png")
 robot2 = pygame.image.load("robot.png")
 
